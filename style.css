@@ -49,6 +49,42 @@
     margin: 0 20px;
 }
 .header_top {
-    background-color: pink;
     height: 80px;
+    line-height: 80px;
+}
+.header_top:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+#logo  {
+    float: left;
+}
+#navbar {
+    float:right;
+}
+#navbar ul {
+    list-style-type: none;
+}
+#navbar ul li {
+    float: left;
+    margin-left: 25px;
+}
+#navbar ul li a {
+    font-size: 18px;
+    color: #526374;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.header_main {
+    background-image: url(https://i.postimg.cc/W4tGDrzm/Immagine.png);
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.jumbo {
+    width: 40%;
+}
+h1 {
+    font-size: 60px;
 }
