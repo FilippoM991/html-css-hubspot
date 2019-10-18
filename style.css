@@ -184,6 +184,8 @@
 #secondo {
     margin: 0 5%;
 }
+
+
 #third {
     background-color: #00A6BC;
     text-align: center;
@@ -211,8 +213,44 @@
 .quadrato h2 {
     font-size: 50px;
     margin: 10px 0 ;
-
 }
 .quadrato p {
     font-size: 18px;
+}
+#uno , #due , #tre , #cinque , #sei , #sette {
+    border-right: 1px solid white ;
+}
+#uno , #due , #tre , #quattro {
+    border-bottom: 1px solid white ;
+}
+
+
+#fourth_top  {
+    margin-top: 100px;
+}
+#fourth_top_left {
+    width:40%;
+    float:left;
+    padding: 20px 80px 20px 20px;
+}
+#fourth_top_left h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+#fourth_top_left p {
+    font-size: 20px;
+}
+#fourth_top_right {
+    width: 60%;
+    float: left;
+}
+.loghi_vari {
+    float: left;
+    text-align: center;
+    height: 18px;
+    width: 25%;
+    margin: 40px 0;
+}
+.loghi_vari img {
+    max-height: 100%;
 }
