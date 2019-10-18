@@ -231,10 +231,10 @@
 #fourth_top_left {
     width:40%;
     float:left;
-    padding: 20px 80px 20px 20px;
+    padding: 20px 100px 20px 40px;
 }
 #fourth_top_left h1 {
-    font-size: 40px;
+    font-size: 50px;
     margin-bottom: 10px;
 }
 #fourth_top_left p {
@@ -253,4 +253,48 @@
 }
 .loghi_vari img {
     max-height: 100%;
+}
+#fourth_bottom {
+    margin-top: 150px;
+}
+#fourth_bottom_left {
+    float: left;
+    width: 40%;
+}
+#fourth_bottom_left h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+#fourth_bottom_left p {
+    font-size: 20px;
+}
+#fourth_bottom_left button {
+    margin-bottom: 20px;
+}
+#fourth_bottom_right {
+    float: right;
+    width: 60%;
+    text-align: right;
+}
+#fourth_bottom_right img {
+    height: 420px;
+    position: relative;
+    bottom:30px;
+}
+footer {
+    margin-top: 100px;
+    background-color: #33475B;
+    height: 1000px;
+    color: white;
+    padding-top: 100px;
+}
+.colonne_foot {
+    width: 25%;
+    float: left;
+    line-height: 40px;
+}
+.colonne_foot a {
+    text-decoration: none;
+    color: #cbd6e2;
+    font-size: 18px;
 }
