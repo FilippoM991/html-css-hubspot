@@ -39,6 +39,8 @@
 #fixed_left {
     float: left;
     height: 80px;
+    position: relative;
+
 }
 #fixed_right {
     float: right;
@@ -56,6 +58,28 @@
 #english img {
     height: 20px;
     display: inline-block;
+}
+#english ul {
+    position: absolute;
+    top:60px;
+    border: 1px solid #cbd6e2;
+    z-index: 55;
+    background-color: white;
+    list-style-type: none;
+    padding: 15px 25px 15px 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    height: 180px;
+    line-height: 25px;
+    display: none;
+}
+#english ul li a {
+    text-decoration: none;
+}
+#english:hover ul  {
+    display: block;
+}
+#english ul li:hover {
+    background-color: #e5f5f8;
 }
 
 #contact_us {
@@ -88,6 +112,7 @@
 }
 #navbar {
     float:right;
+    position: relative;
 }
 #navbar ul {
     list-style-type: none;
@@ -102,6 +127,63 @@
     color: #526374;
     text-decoration: none;
 }
+
+#_hide {
+    width: 900px;
+    border: 1px solid #CBD6E2;
+    background-color: white;
+    position: absolute;
+    top:60px;
+    left: -400px;
+    height: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    display: none;
+}
+#software:hover #_hide {
+    display: block;
+}
+#resources:hover #_hide {
+    display: block;
+}
+#partners:hover #_hide {
+    display: block;
+}
+
+._hide_menu {
+    width: 33%;
+    display: inline-block;
+    height: 100%;
+    line-height: 20px;
+    color: #33475B;
+    padding-left: 10px;
+}
+._hide_menu h3 {
+    margin: 15px 0 15px 0px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+._hide_menu:hover {
+    background-color: #e5f5f8;
+    cursor: pointer;
+}
+._hide_menu_two {
+    width: 49%;
+    display: inline-block;
+    height: 100%;
+    line-height: 20px;
+    color: #33475B;
+    padding: 10px 0 0 5px;
+}
+._hide_menu_two h3 {
+    margin: 15px 0 15px 0px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+._hide_menu_two:hover {
+    background-color: #e5f5f8;
+    cursor: pointer;
+}
+
+
 #first {
     background-image: url(https://i.postimg.cc/W4tGDrzm/Immagine.png);
     height: 800px;
@@ -285,14 +367,79 @@
     padding: 30px;
     float: left;
     color: white;
+
 }
 .quadrato h2 {
     font-size: 50px;
     margin: 10px 0 ;
+    position: relative;
+
 }
 .quadrato p {
     font-size: 18px;
+
 }
+#uno h2::after {
+    content: '+';
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 55px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+#due h2::after {
+    content: '+';
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+#tre h2::after {
+    content: '+';
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+#cinque h2::after {
+    content: '+';
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 55px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+#sette h2::after {
+    content: '+';
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+#otto h2::after {
+    content: '+';
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 70px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
 #uno , #due , #tre , #cinque , #sei , #sette {
     border-right: 1px solid white ;
 }
